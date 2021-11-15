@@ -3,10 +3,10 @@
 define('WEBSITE_NAME', 'Todorrow');
 
 //Database constants
-define('DB_NAME', 'heroku_2f4a37b1c07fda1');
-define('DB_USER', 'bf40816a64e88a');
-define('DB_PASSWORD', '835a0573');
-define('DB_HOST', 'us-cdbr-east-04.cleardb.com');
+define('DB_NAME', 'todorrow');
+define('DB_USER', 'root');
+define('DB_PASSWORD', '');
+define('DB_HOST', '127.0.0.1');
 define('DB_TYPE', 'mysql');
 
 //Set DSN
@@ -20,7 +20,7 @@ define('PDO_ATTRS', array(
 ));
 
 //Set protocol (http/https)
-define('PROTOCOL','http');
+define('PROTOCOL','https');
 
 //Root and Assets paths
 $path = str_replace("\\", "/",PROTOCOL ."://" . $_SERVER['SERVER_NAME'] . __DIR__  . "/");
