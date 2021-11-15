@@ -20,7 +20,7 @@ define('PDO_ATTRS', array(
 ));
 
 //Set protocol (http/https)
-define('PROTOCOL','https');
+define('PROTOCOL','http');
 
 //Root and Assets paths
 $path = str_replace("\\", "/",PROTOCOL ."://" . $_SERVER['SERVER_NAME'] . __DIR__  . "/");
